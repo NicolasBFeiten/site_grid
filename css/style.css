@@ -1,0 +1,427 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 14vw 14vw 14vw 14vw 14vw 14vw; 
+    justify-content: center;
+    align-content: start;
+    grid-gap: 0.5vw;
+}
+
+.container-flex{
+    display: flex;
+}
+
+h1{
+    grid-column: span 6;
+}
+
+#h-sobre{
+    padding-top: 15vh;
+}
+
+#logo{
+    grid-column: 3/5;
+}
+
+#logo img{
+    width: 30vw;
+}
+
+nav{
+    width: 100vw;
+    grid-column: span 6;
+}
+
+nav ul li{
+    display: inline;
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    margin:0 2vw 0 2vw;
+    color:rgb(129, 129, 129);
+    font-size: 20px;
+}
+
+header{
+    width: 100vw;
+    height: 15vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #f8f6f6;
+}
+
+section{
+    width: 100vw;
+}
+
+section div{
+    grid-column: span 6;
+}
+
+h1{
+    
+    line-height: 40px;
+    padding-left:5vw;
+    font-weight: bold;
+    color:rgb(129, 129, 129);
+}
+
+p{
+    color:rgb(129, 129, 129);
+    font-size:20px;
+}
+
+#txt-extra{
+    display:none;
+}
+
+#sobre div div{
+    float: left;
+    width: 50%;
+    align-self: flex-end
+}
+
+#sobre div div img{
+    width: 90%;
+    border: #000 1px solid;
+}
+
+#sobre{
+    letter-spacing: 1px;
+    line-height: 20px; 
+}
+
+#sobre div p{
+    text-indent: 20px;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+h2{
+    color:rgb(129, 129, 129);
+}
+
+#cursos div img {
+    width:100%;
+}
+
+#cursos div h2{
+    background-color:#ddd;
+    text-align: Center;
+    padding:2vh 0 2vh 0;
+}
+
+#curso-wd{
+    margin-top: 2vh;
+    border-top:1vh solid#f00;
+}
+
+#curso-prog{
+    margin-top: 2vh;
+    border-top:1vh solid#0f0;
+}
+
+#curso-bd{
+    margin-top: 2vh;
+    border-top:1vh solid#00f;
+}
+
+.plano{
+    border:1px solid #000;
+    margin-bottom:1vh;
+}
+
+#fundo-bronze{
+    background-color:rgb(228, 143, 58);
+    
+}
+
+#h-bronze{
+    background-color: #f8f6f6;
+    border:1px solid #000;
+}
+
+.planos-space{
+    padding-top:2vh;
+}
+
+#h-bronze h2{
+    text-align: center;
+}
+
+h3{
+    color:rgb(129, 129, 129);
+    font-size:25px;
+    padding-left:2vw;
+}
+
+#planos p{
+    text-indent: 20px;
+    text-align: justify;
+    line-height: 3.5;
+    padding:0 3px 0 3px;
+}
+
+#fundo-prata{
+    background-color:rgb(180, 180, 180);
+    
+}
+
+#h-prata{
+    background-color: #f8f6f6;
+    border:1px solid #000;
+}
+
+#h-prata h2{
+    text-align: center;
+}
+
+#planos p{
+    text-indent: 20px;
+    text-align: justify;
+    line-height: 3.5;
+}
+
+#fundo-ouro{
+    background-color:rgb(250, 214, 14);
+    
+}
+
+#h-ouro{
+    background-color: #f8f6f6;
+    border:1px solid #000;
+}
+
+#h-ouro h2{
+    text-align: center;
+}
+
+#planos p{
+    text-indent: 20px;
+    text-align: justify;
+    line-height: 3.5;
+    background-color: #fff;
+}
+
+#qualidade{
+    padding-top: 3vh;
+}
+
+#h-qualidade{
+    height:25px;
+    border-left:5px solid rgb(29, 29, 190) ;
+}
+
+#qualidade p{
+    text-indent: 20px;
+    text-align: justify;
+    line-height: 1.5;
+    margin-top:1vh;
+}
+
+#eficiencia{
+    padding-top: 3vh;
+}
+
+#h-eficiencia{
+    height:25px;
+    border-left:5px solid rgb(255, 3, 3) ;
+}
+
+#eficiencia p{
+    text-indent: 20px;
+    text-align: justify;
+    line-height: 1.5;
+    margin-top:1vh;
+}
+
+#compromisso{
+    padding-top: 3vh;
+}
+
+#h-compromisso{
+    height:25px;
+    border-left:5px solid rgb(2, 129, 2) ;
+}
+
+#compromisso p{
+    text-indent: 20px;
+    text-align: justify;
+    line-height: 1.5;
+    margin-top:1vh;
+}
+
+#inovação{
+    padding-top: 3vh;
+}
+
+#h-inovação{
+    height:25px;
+    border-left:5px solid rgb(252, 252, 5) ;
+}
+
+#inovação p{
+    text-indent: 20px;
+    text-align: justify;
+    line-height: 1.5;
+    margin-top:1vh;
+}
+
+#pesquisa{
+    padding-top: 3vh;
+}
+
+#h-pesquisa{
+    height:25px;
+    border-left:5px solid rgb(241, 129, 241) ;
+}
+
+#pesquisa p{
+    text-indent: 20px;
+    text-align: justify;
+    line-height: 1.5;
+    margin-top:1vh;
+}
+
+#etica{
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+}
+
+#h-etica{
+    height:25px;
+    border-left:5px solid rgb(8, 255, 255) ;
+}
+
+#etica p{
+    text-indent: 20px;
+    text-align: justify;
+    line-height: 1.5;
+    margin-top:1vh;
+}
+
+#rodape-bronze{
+    display:none;
+}
+
+#rodape-prata{
+    display:none;
+}
+
+#rodape-ouro{
+    display:none;
+}
+
+#fundo-bronze{
+    padding-bottom: 2vh;
+}
+
+#fundo-prata{
+    padding-bottom: 2vh;
+}
+
+#fundo-ouro{
+    padding-bottom: 2vh;
+}
+
+@media only screen and (min-width: 980px){
+    #logo{
+        grid-column: 1/2;
+        padding-top: 2.5vh;
+    }
+
+    #logo img{
+        width: 15vw;
+    }
+
+    nav{
+        grid-column: 3/6
+    }
+
+    nav ul{
+        padding:3vw;
+        padding-left:10vw;
+    }
+
+    nav ul li a{
+        font-size:30px;
+    }
+
+    section div{
+        grid-column: span 2;
+    }
+
+    #sobre div{
+        grid-column: span 3;
+    }
+
+    #txt-extra{
+        display:inline-block;
+    }
+
+    p{
+        text-indent: 20px;
+        text-align:center;
+        line-height: 1.5;
+        margin-top:1vh;
+        font-size: 25px;
+    }
+
+    #cursos{
+        display:flex;
+        border:1px solid rgb(180, 180, 180);
+    }
+
+    #cursos div{
+        align-self: flex-end;
+        width: 30%;
+    }
+
+    #planos p{
+        margin:0 3vw 3vw 3vw;
+        align-self: center;  
+    }
+    
+    #h-bronze{
+        margin:0 3vw 0 3vw;
+    }
+    #h-prata{
+        margin:0 3vw 0 3vw;
+    }
+    #h-ouro{
+        margin:0 3vw 0 3vw;
+    }
+
+    .plano{
+        align-self:flex-end;
+    }
+
+    #rodape-bronze{
+        padding-bottom:2vh;
+        display:block;
+    }
+
+    #rodape-prata{
+        padding-bottom:2vh;
+        display:block;
+    }
+
+    #rodape-ouro{
+        padding-bottom:2vh;
+        display:block;
+    }
+
+    #valores div{
+        margin:1.5vw;
+    }
+
+}
